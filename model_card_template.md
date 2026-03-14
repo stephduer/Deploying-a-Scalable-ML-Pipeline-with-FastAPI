@@ -3,7 +3,7 @@
 For additional information see the Model Card paper: https://arxiv.org/pdf/1810.03993.pdf
 
 ## Model Details
-This repository contains a classification model trained to predict whether an individual's annual salary exceeds $50K (see ` apply_label()` in `./ml/data.py`). The model was developed as part of a Udacity MLOps course and is implemented using scikit-learn with preprocessing and training logic organized under the `ml` package. Trained artifacts (model and encoder) are saved in the `./model/` directory.
+This repository contains a classification model leveraging the Scikit-Learn RandomForestClassifier trained to predict whether an individual's annual salary exceeds $50K (see ` apply_label()` in `./ml/data.py`). The model was developed as part of a Udacity MLOps course and is implemented using scikit-learn with preprocessing and training logic organized under the `ml` package. Trained artifacts (model and encoder) are saved in the `./model/` directory. 
 ## Intended Use
 This model is intended for educational purposes to illustrate an end-to-end MLOps workflow, including data processing, training, evaluation, and model persistence. It is not designed or validated for production use.
 ## Training Data
